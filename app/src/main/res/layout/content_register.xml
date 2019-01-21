@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mhanif.project.Register"
+    android:background="@color/appbackground"
+    tools:showIn="@layout/activity_register">
+
+    <LinearLayout
+        android:id="@+id/reg"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:fontFamily="sans-serif-condensed"
+
+            android:text="Signup"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:fontFamily=""
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/emailtxt"
+            android:layout_width="295dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username:"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:layout_marginTop="40dp"
+            />
+        <EditText
+            android:id="@+id/usernametxt"
+            android:layout_width="295dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:layout_marginTop="40dp"
+            />
+
+        <EditText
+            android:id="@+id/passwordtxt"
+            android:layout_width="295dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:password="true"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:text="Register"
+            android:onClick="onclickreg"
+
+
+            android:textColor="@color/black" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

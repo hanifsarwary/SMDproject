@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.mhanif.project.BlankFragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+   <android.support.v7.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="70dp"
+       app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+       android:id="@+id/frag2_rcv"></android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/add_shop"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="400dp"
+
+
+        android:text="Add Shop"
+        android:textSize="10dp" />
+</FrameLayout>
